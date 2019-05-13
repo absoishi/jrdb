@@ -1,0 +1,347 @@
+{
+    "race_key" : {
+        "col_name" : "レースキー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race" : {
+        "col_name" : "R",
+        "start_ind_b" : 6,
+		"end_ind_b" : 8,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "yyyymmdd" : {
+        "col_name" : "年月日",
+        "start_ind_b" : 8,
+		"end_ind_b" : 16,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "start_time" : {
+        "col_name" : "発走時間",
+        "start_ind_b" : 16,
+		"end_ind_b" : 20,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "distance" : {
+        "col_name" : "距離",
+        "start_ind_b" : 20,
+		"end_ind_b" : 24,
+        "length" : 4,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "turf_dirt_code" : {
+        "col_name" : "芝ダ障害コード",
+        "start_ind_b" : 24,
+		"end_ind_b" : 25,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "" 
+    },
+    "right_left_code" : {
+        "col_name" : "右左",
+        "start_ind_b" : 25,
+		"end_ind_b" : 26,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "inner_outer_code" : {
+        "col_name" : "内外",
+        "start_ind_b" : 26,
+		"end_ind_b" : 27,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_type_code" : {
+        "col_name" : "種別",
+        "start_ind_b" : 27,
+		"end_ind_b" : 29,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_condition_code" : {
+        "col_name" : "条件",
+        "start_ind_b" : 29,
+		"end_ind_b" : 31,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_symbol_horse_group_code" : {
+        "col_name" : "馬種類記号",
+        "start_ind_b" : 31,
+		"end_ind_b" : 32,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_symbol_horse_sex_code" : {
+        "col_name" : "馬性別記号",
+        "start_ind_b" : 32,
+		"end_ind_b" : 33,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_symbol_interleague_code" : {
+        "col_name" : "交流競走記号",
+        "start_ind_b" : 33,
+		"end_ind_b" : 34,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "weight_handicap_code" : {
+        "col_name" : "重量",
+        "start_ind_b" : 34,
+		"end_ind_b" : 35,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "grade_code" : {
+        "col_name" : "グレード",
+        "start_ind_b" : 35,
+		"end_ind_b" : 36,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_name":{
+        "col_name" : "レース名",
+        "start_ind_b" : 36,
+		"end_ind_b" : 86,
+        "length" : 25,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "race_times":{
+        "col_name" : "回数",
+        "start_ind_b" : 86,
+		"end_ind_b" : 94,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "horse_count" : {
+        "col_name" : "頭数",
+        "start_ind_b" : 94,
+		"end_ind_b" : 96,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "course_code" : {
+        "col_name" : "コース",
+        "start_ind_b" : 96,
+		"end_ind_b" : 97,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "open_type_code" : {
+        "col_name" : "開催区分",
+        "start_ind_b" : 97,
+		"end_ind_b" : 98,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_name_short" : {
+        "col_name" : "レース名略称",
+        "start_ind_b" : 98,
+		"end_ind_b" : 106,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "race_name_9char" : {
+        "col_name" : "レース名9文字",
+        "start_ind_b" : 106,
+		"end_ind_b" : 124,
+        "length" : 9,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "data_type_code" : {
+        "col_name" : "データ区分",
+        "start_ind_b" : 124,
+		"end_ind_b" : 125,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "added_money_1" : {
+        "col_name" : "1着賞金",
+        "start_ind_b" : 125,
+		"end_ind_b" : 130,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "added_money_2" : {
+        "col_name" : "2着賞金",
+        "start_ind_b" : 130,
+		"end_ind_b" : 135,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "added_money_3" : {
+        "col_name" : "3着賞金",
+        "start_ind_b" : 135,
+		"end_ind_b" : 140,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "added_money_4" : {
+        "col_name" : "4着賞金",
+        "start_ind_b" : 140,
+		"end_ind_b" : 145,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "added_money_5" : {
+        "col_name" : "5着賞金",
+        "start_ind_b" : 145,
+		"end_ind_b" : 150,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    }, 
+    "obtaining_money_1" : {
+        "col_name" : "1着参入賞金",
+        "start_ind_b" : 150,
+		"end_ind_b" : 155,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "obtaining_money_2" : {
+        "col_name" : "2着参入賞金",
+        "start_ind_b" : 155,
+		"end_ind_b" : 160,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "betting_flag_win" : {
+        "col_name" : "単勝発売フラグ",
+        "start_ind_b" : 160,
+		"end_ind_b" : 161,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_place" : {
+        "col_name" : "複勝発売フラグ",
+        "start_ind_b" : 161,
+		"end_ind_b" : 162,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_bracket_quinella" : {
+        "col_name" : "枠連発売フラグ",
+        "start_ind_b" : 162,
+		"end_ind_b" : 163,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_quinella" : {
+        "col_name" : "馬連発売フラグ",
+        "start_ind_b" : 163,
+		"end_ind_b" : 164,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_exacta" : {
+        "col_name" : "馬単発売フラグ",
+        "start_ind_b" : 164,
+		"end_ind_b" : 165,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_quinella_place" : {
+        "col_name" : "ワイド発売フラグ",
+        "start_ind_b" : 165,
+		"end_ind_b" : 166,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_trio" : {
+        "col_name" : "3連複発売フラグ",
+        "start_ind_b" : 166,
+		"end_ind_b" : 167,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_tierce" : {
+        "col_name" : "3連単発売フラグ",
+        "start_ind_b" : 167,
+		"end_ind_b" : 168,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "betting_flag_win5" : {
+        "col_name" : "WIN5発売フラグ",
+        "start_ind_b" : 176,
+		"end_ind_b" : 177,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }
+}
+

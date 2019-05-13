@@ -1,0 +1,162 @@
+{
+    "pedigree_registration_number" : {
+        "col_name" : "血統登録番号",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "horse_name" : {
+        "col_name" : "馬名",
+        "start_ind_b" : 8,
+		"end_ind_b" : 44,
+        "length" : 18,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "sex_code" : {
+        "col_name" : "性別コード",
+        "start_ind_b" : 44,
+		"end_ind_b" : 45,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "hair_color_code" : {
+        "col_name" : "毛色コード",
+        "start_ind_b" : 45,
+		"end_ind_b" : 47,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "horse_mark_code" : {
+        "col_name" : "馬記号コード",
+        "start_ind_b" : 47,
+		"end_ind_b" : 49,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "sire_name" : {
+        "col_name" : "父馬名",
+        "start_ind_b" : 49,
+		"end_ind_b" : 85,
+        "length" : 18,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_name" : {
+        "col_name" : "母馬名",
+        "start_ind_b" : 85,
+		"end_ind_b" : 121,
+        "length" : 18,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_sire_name" : {
+        "col_name" : "母父馬名",
+        "start_ind_b" : 121,
+		"end_ind_b" : 157,
+        "length" : 18,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "birthday" : {
+        "col_name" : "生年月日",
+        "start_ind_b" : 157,
+		"end_ind_b" : 165,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "sire_birth_year" : {
+        "col_name" : "父馬生年",
+        "start_ind_b" : 165,
+		"end_ind_b" : 169,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_birth_year" : {
+        "col_name" : "母馬生年",
+        "start_ind_b" : 169,
+		"end_ind_b" : 173,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_sire_birth_year" : {
+        "col_name" : "母父馬生年",
+        "start_ind_b" : 173,
+		"end_ind_b" : 177,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "owner_name" : {
+        "col_name" : "馬主名",
+        "start_ind_b" : 177,
+		"end_ind_b" : 217,
+        "length" : 20,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series" 
+    },
+    "owner_group_code" : {
+        "col_name" : "馬主会コード",
+        "start_ind_b" : 217,
+		"end_ind_b" : 219,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "producer_name" : {
+        "col_name" : "生産者名",
+        "start_ind_b" : 219,
+		"end_ind_b" : 259,
+        "length" : 20,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "breeding_center" : {
+        "col_name" : "産地名",
+        "start_ind_b" : 259,
+		"end_ind_b" : 267,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "deregistration_flag" : {
+        "col_name" : "登録抹消フラグ",
+        "start_ind_b" : 267,
+		"end_ind_b" : 268,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "created_at" : {
+        "col_name" : "データ年月日",
+        "start_ind_b" : 268,
+		"end_ind_b" : 276,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "sire_pedigree_code" : {
+        "col_name" : "父血統コード",
+        "start_ind_b" : 276,
+		"end_ind_b" : 280,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_sire_pedigree_code" : {
+        "col_name" : "母父血統コード",
+        "start_ind_b" : 280,
+		"end_ind_b" : 284,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }
+}

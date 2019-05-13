@@ -1,0 +1,210 @@
+{
+    "race_key" : {
+        "col_name" : "レースキー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race" : {
+        "col_name" : "R",
+        "start_ind_b" : 6,
+		"end_ind_b" : 8,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "horse_number" : {
+        "col_name" : "馬番",
+        "start_ind_b" : 8,
+		"end_ind_b" : 10,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "day_of_week" : {
+        "col_name" : "曜日",
+        "start_ind_b" : 10,
+		"end_ind_b" : 12,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_day" : {
+        "col_name" : "調教年月日",
+        "start_ind_b" : 12,
+		"end_ind_b" : 20,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "workout_times" : {
+        "col_name" : "回数",
+        "start_ind_b" : 20,
+		"end_ind_b" : 21,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "training_course_code" : {
+        "col_name" : "調教コースコード",
+        "start_ind_b" : 21,
+		"end_ind_b" : 23,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "workout_type_code" : {
+        "col_name" : "追切種類",
+        "start_ind_b" : 23,
+		"end_ind_b" : 24,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "workout_condition_code" : {
+        "col_name" : "追い状態",
+        "start_ind_b" : 24,
+		"end_ind_b" : 26,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_type_code" : {
+        "col_name" : "乗り役",
+        "start_ind_b" : 26,
+		"end_ind_b" : 27,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_distance" : {
+        "col_name" : "調教F",
+        "start_ind_b" : 27,
+		"end_ind_b" : 28,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "earlyf_time" : {
+        "col_name" : "テンF",
+        "start_ind_b" : 28,
+		"end_ind_b" : 31,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "midf_time" : {
+        "col_name" : "中間F",
+        "start_ind_b" : 31,
+		"end_ind_b" : 34,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "lastf_time" : {
+        "col_name" : "終いF",
+        "start_ind_b" : 34,
+		"end_ind_b" : 37,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "earlyf_index" : {
+        "col_name" : "テンF指数",
+        "start_ind_b" : 37,
+		"end_ind_b" : 40,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "midf_index" : {
+        "col_name" : "中間F指数",
+        "start_ind_b" : 40,
+		"end_ind_b" : 43,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "lastf_index" : {
+        "col_name" : "終いF指数",
+        "start_ind_b" : 43,
+		"end_ind_b" : 46,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "workout_index":{
+        "col_name" : "追切指数",
+        "start_ind_b" : 46,
+		"end_ind_b" : 49,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "abreast_result_code" : {
+        "col_name" : "併せ結果",
+        "start_ind_b" : 49,
+		"end_ind_b" : 50,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "abreast_workout_type_code" : {
+        "col_name" : "併せ馬追切種類",
+        "start_ind_b" : 50,
+		"end_ind_b" : 51,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "abreast_age" : {
+        "col_name" : "併せ馬年齢",
+        "start_ind_b" : 51,
+		"end_ind_b" : 53,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "abreast_class_code" : {
+        "col_name" : "併せ馬クラス",
+        "start_ind_b" : 53,
+		"end_ind_b" : 55,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }
+}

@@ -1,0 +1,1242 @@
+{
+    "race_key" : {
+        "col_name" : "レースキー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race" : {
+        "col_name" : "R",
+        "start_ind_b" : 6,
+		"end_ind_b" : 8,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "horse_number" : {
+        "col_name" : "馬番",
+        "start_ind_b" : 8,
+		"end_ind_b" : 10,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "pedigree_registration_number" : {
+        "col_name" : "血統登録番号",
+        "start_ind_b" : 10,
+		"end_ind_b" : 18,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "horse_name" : {
+        "col_name" : "馬名",
+        "start_ind_b" : 18,
+		"end_ind_b" : 54,
+        "length" : 18,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "idm" : {
+        "col_name" : "IDM",
+        "start_ind_b" : 54,
+		"end_ind_b" : 59,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_index" : {
+        "col_name" : "騎手指数",
+        "start_ind_b" : 59,
+		"end_ind_b" : 64,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "information_index" : {
+        "col_name" : "情報指数",
+        "start_ind_b" : 64,
+		"end_ind_b" : 69,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_index" : {
+        "col_name" : "総合指数",
+        "start_ind_b" : 84,
+		"end_ind_b" : 89,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "running_type_code" : {
+        "col_name" : "脚質",
+        "start_ind_b" : 89,
+		"end_ind_b" : 90,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "distance_aptitude_code" : {
+        "col_name" : "距離適性",
+        "start_ind_b" : 90,
+		"end_ind_b" : 91,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "rising_tone_code" : {
+        "col_name" : "上昇度",
+        "start_ind_b" : 91,
+		"end_ind_b" : 92,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "rotation" : {
+        "col_name" : "ローテーション",
+        "start_ind_b" : 92,
+		"end_ind_b" : 95,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "standard_odds" : {
+        "col_name" : "基準オッズ",
+        "start_ind_b" : 95,
+		"end_ind_b" : 100,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "standard_popularity_rank":{
+        "col_name" : "基準人気順位",
+        "start_ind_b" : 100,
+		"end_ind_b" : 102,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "standard_place_odds" : {
+        "col_name" : "基準複勝オッズ",
+        "start_ind_b" : 102,
+		"end_ind_b" : 107,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "standard_place_popularity_rank" : {
+        "col_name" : "基準複勝人気順位",
+        "start_ind_b" : 107,
+		"end_ind_b" : 109,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "specific_information_dc" : {
+        "col_name" : "特定情報◎",
+        "start_ind_b" : 109,
+		"end_ind_b" : 112,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "specific_information_c" : {
+        "col_name" : "特定情報◯",
+        "start_ind_b" : 112,
+		"end_ind_b" : 115,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "specific_information_bt" : {
+        "col_name" : "特定情報▲",
+        "start_ind_b" : 115,
+		"end_ind_b" : 118,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "specific_information_wt" : {
+        "col_name" : "特定情報△",
+        "start_ind_b" : 118,
+		"end_ind_b" : 121,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "specific_information_x" : {
+        "col_name" : "特定情報☓",
+        "start_ind_b" : 121,
+		"end_ind_b" : 124,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_information_dc" : {
+        "col_name" : "総合情報◎",
+        "start_ind_b" : 124,
+		"end_ind_b" : 127,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    }, 
+    "composit_information_c" : {
+        "col_name" : "総合情報◯",
+        "start_ind_b" : 127,
+		"end_ind_b" : 130,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_information_bt" : {
+        "col_name" : "総合情報▲",
+        "start_ind_b" : 130,
+		"end_ind_b" : 133,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_information_wt" : {
+        "col_name" : "総合情報△",
+        "start_ind_b" : 133,
+		"end_ind_b" : 136,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_information_x" : {
+        "col_name" : "総合情報☓",
+        "start_ind_b" : 136,
+		"end_ind_b" : 139,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "popularity_index" : {
+        "col_name" : "人気指数",
+        "start_ind_b" : 139,
+		"end_ind_b" : 144,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "training_index" : {
+        "col_name" : "調教指数",
+        "start_ind_b" : 144,
+		"end_ind_b" : 149,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "stable_index" : {
+        "col_name" : "厩舎指数",
+        "start_ind_b" : 149,
+		"end_ind_b" : 154,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "training_arrow_code" : {
+        "col_name" : "調教矢印コード",
+        "start_ind_b" : 154,
+		"end_ind_b" : 155,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "stable_evaluation_code" : {
+        "col_name" : "厩舎評価コード",
+        "start_ind_b" : 155,
+		"end_ind_b" : 156,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_expected_in_second_rate" : {
+        "col_name" : "騎手期待連対率",
+        "start_ind_b" : 156,
+		"end_ind_b" : 160,
+        "length" : 4,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "flat_out_run_index" : {
+        "col_name" : "激走指数",
+        "start_ind_b" : 160,
+		"end_ind_b" : 163,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "hoof_code" : {
+        "col_name" : "蹄コード",
+        "start_ind_b" : 163,
+		"end_ind_b" : 165,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "soft_aptitude_code" : {
+        "col_name" : "重適性コード",
+        "start_ind_b" : 165,
+		"end_ind_b" : 166,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "class_code" : {
+        "col_name" : "クラスコード",
+        "start_ind_b" : 166,
+		"end_ind_b" : 168,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "blinker_code" : {
+        "col_name" : "ブリンカー",
+        "start_ind_b" : 170,
+		"end_ind_b" : 171,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_name" : {
+        "col_name" : "騎手名",
+        "start_ind_b" : 171,
+		"end_ind_b" : 183,
+        "length" : 6,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "basis_weight" : {
+        "col_name" : "負担重量",
+        "start_ind_b" : 183,
+		"end_ind_b" : 186,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "apprentice_type_code" : {
+        "col_name" : "見習い区分",
+        "start_ind_b" : 186,
+		"end_ind_b" : 187,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "trainer_name" : {
+        "col_name" : "調教師名",
+        "start_ind_b" : 187,
+		"end_ind_b" : 199,
+        "length" : 6,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "trainer_address" : {
+        "col_name" : "調教師所属",
+        "start_ind_b" : 199,
+		"end_ind_b" : 203,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_result_key1" : {
+        "col_name" : "前走1競争成績キー",
+        "start_ind_b" : 203,
+		"end_ind_b" : 219,
+        "length" : 16,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_result_key2" : {
+        "col_name" : "前走2競争成績キー",
+        "start_ind_b" : 219,
+		"end_ind_b" : 235,
+        "length" : 16,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_result_key3" : {
+        "col_name" : "前走3競争成績キー",
+        "start_ind_b" : 235,
+		"end_ind_b" : 251,
+        "length" : 16,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_result_key4" : {
+        "col_name" : "前走4競争成績キー",
+        "start_ind_b" : 251,
+		"end_ind_b" : 267,
+        "length" : 16,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_result_key5" : {
+        "col_name" : "前走5競争成績キー",
+        "start_ind_b" : 267,
+		"end_ind_b" : 283,
+        "length" : 16,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_key1" : {
+        "col_name" : "前走1レースキー",
+        "start_ind_b" : 283,
+		"end_ind_b" : 291,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_key2" : {
+        "col_name" : "前走2レースキー",
+        "start_ind_b" : 291,
+		"end_ind_b" : 299,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_key3" : {
+        "col_name" : "前走3レースキー",
+        "start_ind_b" : 299,
+		"end_ind_b" : 307,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_key4" : {
+        "col_name" : "前走4レースキー",
+        "start_ind_b" : 307,
+		"end_ind_b" : 315,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race_key5" : {
+        "col_name" : "前走5レースキー",
+        "start_ind_b" : 315,
+		"end_ind_b" : 323,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "gate_number" : {
+        "col_name" : "枠番",
+        "start_ind_b" : 323,
+		"end_ind_b" : 324,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_mark_code" : {
+        "col_name" : "総合印",
+        "start_ind_b" : 326,
+		"end_ind_b" : 327,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "idm_mark_code" : {
+        "col_name" : "IDM印",
+        "start_ind_b" : 327,
+		"end_ind_b" : 328,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "information_mark_code" : {
+        "col_name" : "情報印",
+        "start_ind_b" : 328,
+		"end_ind_b" : 329,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_mark_code" : {
+        "col_name" : "騎手印",
+        "start_ind_b" : 329,
+		"end_ind_b" : 330,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "stable_mark_code" : {
+        "col_name" : "厩舎印",
+        "start_ind_b" : 330,
+		"end_ind_b" : 331,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_mark_code" : {
+        "col_name" : "調教印",
+        "start_ind_b" : 331,
+		"end_ind_b" : 332,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "flat_out_run_mark_code" : {
+        "col_name" : "激走印",
+        "start_ind_b" : 332,
+		"end_ind_b" : 333,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_aptitude_code" : {
+        "col_name" : "芝適性コード",
+        "start_ind_b" : 333,
+		"end_ind_b" : 334,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "dirt_aptitude_code" : {
+        "col_name" : "ダ適正コード",
+        "start_ind_b" : 334,
+		"end_ind_b" : 335,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_code" : {
+        "col_name" : "騎手コード",
+        "start_ind_b" : 335,
+		"end_ind_b" : 340,
+        "length" : 5,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "trainer_code" : {
+        "col_name" : "調教師コード",
+        "start_ind_b" : 340,
+		"end_ind_b" : 345,
+        "length" : 5,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "winners_money" : {
+        "col_name" : "獲得賞金",
+        "start_ind_b" : 346,
+		"end_ind_b" : 352,
+        "length" : 6,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "obtaining_money" : {
+        "col_name" : "収得賞金",
+        "start_ind_b" : 352,
+		"end_ind_b" : 357,
+        "length" : 5,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "conditional_class_code" : {
+        "col_name" : "条件クラス",
+        "start_ind_b" : 357,
+		"end_ind_b" : 358,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "early_index" : {
+        "col_name" : "テン指数",
+        "start_ind_b" : 358,
+		"end_ind_b" : 363,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "pace_index" : {
+        "col_name" : "ペース指数",
+        "start_ind_b" : 363,
+		"end_ind_b" : 368,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "last_index" : {
+        "col_name" : "上がり指数",
+        "start_ind_b" : 368,
+		"end_ind_b" : 373,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "positioning_index" : {
+        "col_name" : "位置指数",
+        "start_ind_b" : 373,
+		"end_ind_b" : 378,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "expected_pace" : {
+        "col_name" : "ペース予想",
+        "start_ind_b" : 378,
+		"end_ind_b" : 379,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "mid_rank" : {
+        "col_name" : "道中順位",
+        "start_ind_b" : 379,
+		"end_ind_b" : 381,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "mid_difference" : {
+        "col_name" : "道中差",
+        "start_ind_b" : 381,
+		"end_ind_b" : 383,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "mid_inner_outer_code" : {
+        "col_name" : "道中内外",
+        "start_ind_b" : 383,
+		"end_ind_b" : 384,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "last3f_rank" : {
+        "col_name" : "後3F順位",
+        "start_ind_b" : 384,
+		"end_ind_b" : 386,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "last3f_difference" : {
+        "col_name" : "後3F差",
+        "start_ind_b" : 386,
+		"end_ind_b" : 388,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "last3f_inner_outer_code" : {
+        "col_name" : "後3F内外",
+        "start_ind_b" : 388,
+		"end_ind_b" : 389,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "goal_rank" : {
+        "col_name" : "ゴール順位",
+        "start_ind_b" : 389,
+		"end_ind_b" : 391,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "goal_difference" : {
+        "col_name" : "ゴール差",
+        "start_ind_b" : 391,
+		"end_ind_b" : 393,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "goal_inner_outer_code" : {
+        "col_name" : "ゴール内外",
+        "start_ind_b" : 393,
+		"end_ind_b" : 394,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "evolution_mark_code" : {
+        "col_name" : "展開記号",
+        "start_ind_b" : 394,
+		"end_ind_b" : 395,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "distance_aptitude_code2" : {
+        "col_name" : "距離適性2",
+        "start_ind_b" : 395,
+		"end_ind_b" : 396,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "frame_fixed_horse_weight" : {
+        "col_name" : "枠確定馬体重",
+        "start_ind_b" : 396,
+		"end_ind_b" : 399,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "frame_fixed_horse_weight_change" : {
+        "col_name" : "枠確定馬体重増減",
+        "start_ind_b" : 399,
+		"end_ind_b" : 402,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "cancel_flag_code" : {
+        "col_name" : "取消フラグ",
+        "start_ind_b" : 402,
+		"end_ind_b" : 403,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "sex_code" : {
+        "col_name" : "性別コード",
+        "start_ind_b" : 403,
+		"end_ind_b" : 404,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "owner_name" : {
+        "col_name" : "馬主名",
+        "start_ind_b" : 404,
+		"end_ind_b" : 444,
+        "length" : 20,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "owner_association_code" : {
+        "col_name" : "馬主会コード",
+        "start_ind_b" : 444,
+		"end_ind_b" : 446,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "horse_mark_code" : {
+        "col_name" : "馬記号コード",
+        "start_ind_b" : 446,
+		"end_ind_b" : 448,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "flat_out_run_rank" : {
+        "col_name" : "激走順位",
+        "start_ind_b" : 448,
+		"end_ind_b" : 450,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "ls_index_rank" : {
+        "col_name" : "LS指数順位",
+        "start_ind_b" : 450,
+		"end_ind_b" : 452,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "early_index_rank" : {
+        "col_name" : "テン指数順位",
+        "start_ind_b" : 452,
+		"end_ind_b" : 454,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "pace_index_rank" : {
+        "col_name" : "ペース指数順位",
+        "start_ind_b" : 454,
+		"end_ind_b" : 456,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "last_index_rank" : {
+        "col_name" : "上がり指数順位",
+        "start_ind_b" : 456,
+		"end_ind_b" : 458,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "positioning_index_rank" : {
+        "col_name" : "位置指数順位",
+        "start_ind_b" : 458,
+		"end_ind_b" : 460,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_expected_win_rate" : {
+        "col_name" : "騎手期待単勝率",
+        "start_ind_b" : 460,
+		"end_ind_b" : 464,
+        "length" : 4,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_expected_in_place_rate" : {
+        "col_name" : "騎手期待3着内率",
+        "start_ind_b" : 464,
+		"end_ind_b" : 468,
+        "length" : 4,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "transport_type_code" : {
+        "col_name" : "輸送区分",
+        "start_ind_b" : 468,
+		"end_ind_b" : 469,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "running_style_code" : {
+        "col_name" : "走法",
+        "start_ind_b" : 469,
+		"end_ind_b" : 470,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "step_style_code" : {
+        "col_name" : "脚使",
+        "start_ind_b" : 470,
+		"end_ind_b" : 471,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "rotation_speed_code" : {
+        "col_name" : "回転",
+        "start_ind_b" : 471,
+		"end_ind_b" : 472,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "step_length_code" : {
+        "col_name" : "歩幅",
+        "start_ind_b" : 472,
+		"end_ind_b" : 473,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "front_leg_style_code" : {
+        "col_name" : "脚上",
+        "start_ind_b" : 473,
+		"end_ind_b" : 474,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "body_type_code" : {
+        "col_name" : "体型",
+        "start_ind_b" : 477,
+		"end_ind_b" : 478,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "back_code" : {
+        "col_name" : "背中",
+        "start_ind_b" : 478,
+		"end_ind_b" : 479,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "body_code" : {
+        "col_name" : "胴",
+        "start_ind_b" : 479,
+		"end_ind_b" : 480,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "buttocks_code" : {
+        "col_name" : "尻",
+        "start_ind_b" : 480,
+		"end_ind_b" : 481,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "hindquarters_code" : {
+        "col_name" : "トモ",
+        "start_ind_b" : 481,
+		"end_ind_b" : 482,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pouch_code" : {
+        "col_name" : "腹袋",
+        "start_ind_b" : 482,
+		"end_ind_b" : 483,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "head_code" : {
+        "col_name" : "頭",
+        "start_ind_b" : 483,
+		"end_ind_b" : 484,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "neck_code" : {
+        "col_name" : "首",
+        "start_ind_b" : 484,
+		"end_ind_b" : 485,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "chest_code" : {
+        "col_name" : "胸",
+        "start_ind_b" : 485,
+		"end_ind_b" : 486,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "shoulder_code" : {
+        "col_name" : "肩",
+        "start_ind_b" : 486,
+		"end_ind_b" : 487,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "front_legs_length_code" : {
+        "col_name" : "前長",
+        "start_ind_b" : 487,
+		"end_ind_b" : 488,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "rear_legs_length_code" : {
+        "col_name" : "後長",
+        "start_ind_b" : 488,
+		"end_ind_b" : 489,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "front_legs_step_length_code" : {
+        "col_name" : "前幅",
+        "start_ind_b" : 489,
+		"end_ind_b" : 490,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "rear_legs_step_length_code" : {
+        "col_name" : "後幅",
+        "start_ind_b" : 490,
+		"end_ind_b" : 491,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "fore_pastern_code" : {
+        "col_name" : "前繋",
+        "start_ind_b" : 491,
+		"end_ind_b" : 492,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "after_pastern_code" : {
+        "col_name" : "後繋",
+        "start_ind_b" : 492,
+		"end_ind_b" : 493,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "base_of_tail_code" : {
+        "col_name" : "尾",
+        "start_ind_b" : 493,
+		"end_ind_b" : 494,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "tail_code" : {
+        "col_name" : "振",
+        "start_ind_b" : 494,
+		"end_ind_b" : 495,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_body_type_code1" : {
+        "col_name" : "体型総合1",
+        "start_ind_b" : 501,
+		"end_ind_b" : 504,
+        "length" : 3,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_body_type_code2" : {
+        "col_name" : "体型総合2",
+        "start_ind_b" : 504,
+		"end_ind_b" : 507,
+        "length" : 3,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "composit_body_type_code3" : {
+        "col_name" : "体型総合3",
+        "start_ind_b" : 507,
+		"end_ind_b" : 510,
+        "length" : 3,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "horse_remark_code1" : {
+        "col_name" : "馬特記1",
+        "start_ind_b" : 510,
+		"end_ind_b" : 513,
+        "length" : 3,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "horse_remark_code2" : {
+        "col_name" : "馬特記2",
+        "start_ind_b" : 513,
+		"end_ind_b" : 516,
+        "length" : 3,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "horse_remark_code3" : {
+        "col_name" : "馬特記3",
+        "start_ind_b" : 516,
+		"end_ind_b" : 519,
+        "length" : 3,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "start_index" : {
+        "col_name" : "馬スタート指数",
+        "start_ind_b" : 519,
+		"end_ind_b" : 523,
+        "length" : 4,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "late_rate" : {
+        "col_name" : "馬出遅率",
+        "start_ind_b" : 523,
+		"end_ind_b" : 527,
+        "length" : 4,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race1" : {
+        "col_name" : "参考前走1",
+        "start_ind_b" : 527,
+		"end_ind_b" : 528,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_race2" : {
+        "col_name" : "参考前走2",
+        "start_ind_b" : 528,
+		"end_ind_b" : 529,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pre_jockey_code" : {
+        "col_name" : "参考前走騎手コード",
+        "start_ind_b" : 529,
+		"end_ind_b" : 534,
+        "length" : 5,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "high_dividend_index" : {
+        "col_name" : "万券指数",
+        "start_ind_b" : 534,
+		"end_ind_b" : 537,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "high_dividend_mark_code" : {
+        "col_name" : "万券印",
+        "start_ind_b" : 537,
+		"end_ind_b" : 538,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "demotion_flag_code" : {
+        "col_name" : "降級フラグ",
+        "start_ind_b" : 538,
+		"end_ind_b" : 539,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "flat_out_run_type_code" : {
+        "col_name" : "激走タイプ",
+        "start_ind_b" : 539,
+		"end_ind_b" : 541,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "rest_reason_code" : {
+        "col_name" : "休養理由分類コード",
+        "start_ind_b" : 541,
+		"end_ind_b" : 543,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_dirt_change_flag_code" : {
+        "col_name" : "芝ダ障害フラグ",
+        "start_ind_b" : 543,
+		"end_ind_b" : 544,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "distance_flag_code" : {
+        "col_name" : "距離フラグ",
+        "start_ind_b" : 544,
+		"end_ind_b" : 545,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "class_change_flag_code" : {
+        "col_name" : "クラスフラグ",
+        "start_ind_b" : 545,
+		"end_ind_b" : 546,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "stable_change_flag_code" : {
+        "col_name" : "転厩フラグ",
+        "start_ind_b" : 546,
+		"end_ind_b" : 547,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "castration_flag_code" : {
+        "col_name" : "去勢フラグ",
+        "start_ind_b" : 547,
+		"end_ind_b" : 548,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "jockey_change_flag_code" : {
+        "col_name" : "乗替フラグ",
+        "start_ind_b" : 548,
+		"end_ind_b" : 549,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "count_races_in_stabling" : {
+        "col_name" : "入厩何走目",
+        "start_ind_b" : 559,
+		"end_ind_b" : 561,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "stabling_date" : {
+        "col_name" : "入厩年月日",
+        "start_ind_b" : 561,
+		"end_ind_b" : 569,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "count_days_in_stabling" : {
+        "col_name" : "入厩何日前",
+        "start_ind_b" : 569,
+		"end_ind_b" : 572,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "grazing_place" : {
+        "col_name" : "放牧先",
+        "start_ind_b" : 572,
+		"end_ind_b" : 622,
+        "length" : 25,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "grazing_place_rank" : {
+        "col_name" : "放牧先ランク",
+        "start_ind_b" : 622,
+		"end_ind_b" : 623,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "stable_rank" : {
+        "col_name" : "厩舎ランク",
+        "start_ind_b" : 623,
+		"end_ind_b" : 624,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }
+}

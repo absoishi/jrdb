@@ -1,0 +1,418 @@
+{
+    "race_key" : {
+        "col_name" : "レースキー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race" : {
+        "col_name" : "R",
+        "start_ind_b" : 6,
+		"end_ind_b" : 8,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "1stf_time" : {
+        "col_name" : "1F目タイム",
+        "start_ind_b" : 8,
+		"end_ind_b" : 11,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "2ndf_time" : {
+        "col_name" : "2F目タイム",
+        "start_ind_b" : 11,
+		"end_ind_b" : 14,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "3rdf_time" : {
+        "col_name" : "3F目タイム",
+        "start_ind_b" : 14,
+		"end_ind_b" : 17,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "4thf_time" : {
+        "col_name" : "4F目タイム",
+        "start_ind_b" : 17,
+		"end_ind_b" : 20,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "5thf_time" : {
+        "col_name" : "5F目タイム",
+        "start_ind_b" : 20,
+		"end_ind_b" : 23,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "6thf_time" : {
+        "col_name" : "6F目タイム",
+        "start_ind_b" : 23,
+		"end_ind_b" : 26,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "7thf_time" : {
+        "col_name" : "7F目タイム",
+        "start_ind_b" : 26,
+		"end_ind_b" : 29,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series" 
+    },
+    "8thf_time" : {
+        "col_name" : "8F目タイム",
+        "start_ind_b" : 29,
+		"end_ind_b" : 32,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "9thf_time" : {
+        "col_name" : "9F目タイム",
+        "start_ind_b" : 32,
+		"end_ind_b" : 35,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "10thf_time" : {
+        "col_name" : "10F目タイム",
+        "start_ind_b" : 35,
+		"end_ind_b" : 38,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "11thf_time" : {
+        "col_name" : "11F目タイム",
+        "start_ind_b" : 38,
+		"end_ind_b" : 41,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "12thf_time" : {
+        "col_name" : "12F目タイム",
+        "start_ind_b" : 41,
+		"end_ind_b" : 44,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "13thf_time" : {
+        "col_name" : "13F目タイム",
+        "start_ind_b" : 44,
+		"end_ind_b" : 47,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "14thf_time" : {
+        "col_name" : "14F目タイム",
+        "start_ind_b" : 47,
+		"end_ind_b" : 50,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "15thf_time" : {
+        "col_name" : "15F目タイム",
+        "start_ind_b" : 50,
+		"end_ind_b" : 53,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "16thf_time":{
+        "col_name" : "16F目タイム",
+        "start_ind_b" : 53,
+		"end_ind_b" : 56,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "17thf_time" : {
+        "col_name" : "17F目タイム",
+        "start_ind_b" : 56,
+		"end_ind_b" : 59,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "18thf_time" : {
+        "col_name" : "18F目タイム",
+        "start_ind_b" : 59,
+		"end_ind_b" : 62,
+        "length" : 3,
+        "var_type" : "float",
+		"var_function" : "str_to_float_series"
+    },
+    "corner1_position" : {
+        "col_name" : "1コーナー位置取り",
+        "start_ind_b" : 62,
+		"end_ind_b" : 126,
+        "length" : 64,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner2_position" : {
+        "col_name" : "2コーナー位置取り",
+        "start_ind_b" : 126,
+		"end_ind_b" : 190,
+        "length" : 64,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner3_position" : {
+        "col_name" : "3コーナー位置取り",
+        "start_ind_b" : 190,
+		"end_ind_b" : 254,
+        "length" : 64,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner4_position" : {
+        "col_name" : "4コーナー位置取り",
+        "start_ind_b" : 254,
+		"end_ind_b" : 318,
+        "length" : 64,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "pace_up_place" : {
+        "col_name" : "ペースアップ位置",
+        "start_ind_b" : 318,
+		"end_ind_b" : 320,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "corner1_track_bias_inner" : {
+        "col_name" : "1角トラックバイアス内",
+        "start_ind_b" : 320,
+		"end_ind_b" : 321,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }, 
+    "corner1_track_bias_mid" : {
+        "col_name" : "1角トラックバイアス中",
+        "start_ind_b" : 321,
+		"end_ind_b" : 322,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }, 
+    "corner1_track_bias_outer" : {
+        "col_name" : "1角トラックバイアス外",
+        "start_ind_b" : 322,
+		"end_ind_b" : 323,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }, 
+    "corner2_track_bias_inner" : {
+        "col_name" : "2角トラックバイアス内",
+        "start_ind_b" : 323,
+		"end_ind_b" : 324,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner2_track_bias_mid" : {
+        "col_name" : "2角トラックバイアス中",
+        "start_ind_b" : 324,
+		"end_ind_b" : 325,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner2_track_bias_outer" : {
+        "col_name" : "2角トラックバイアス外",
+        "start_ind_b" : 325,
+		"end_ind_b" : 326,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "back_stretch_track_bias_inner" : {
+        "col_name" : "向正トラックバイアス内",
+        "start_ind_b" : 326,
+		"end_ind_b" : 327,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "back_stretch_track_bias_mid" : {
+        "col_name" : "向正トラックバイアス中",
+        "start_ind_b" : 327,
+		"end_ind_b" : 328,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "back_stretch_track_bias_outer" : {
+        "col_name" : "向正トラックバイアス外",
+        "start_ind_b" : 328,
+		"end_ind_b" : 329,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner3_track_bias_inner" : {
+        "col_name" : "3角トラックバイアス内",
+        "start_ind_b" : 329,
+		"end_ind_b" : 330,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner3_track_bias_mid" : {
+        "col_name" : "3角トラックバイアス中",
+        "start_ind_b" : 330,
+		"end_ind_b" : 331,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner3_track_bias_outer" : {
+        "col_name" : "3角トラックバイアス外",
+        "start_ind_b" : 331,
+		"end_ind_b" : 332,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner4_track_bias_innermost" : {
+        "col_name" : "4角トラックバイアス最内",
+        "start_ind_b" : 332,
+		"end_ind_b" : 333,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner4_track_bias_inner" : {
+        "col_name" : "4角トラックバイアス内",
+        "start_ind_b" : 333,
+		"end_ind_b" : 334,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner4_track_bias_mid" : {
+        "col_name" : "4角トラックバイアス中",
+        "start_ind_b" : 334,
+		"end_ind_b" : 335,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner4_track_bias_outer" : {
+        "col_name" : "4角トラックバイアス外",
+        "start_ind_b" : 335,
+		"end_ind_b" : 336,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "corner4_track_bias_outermost" : {
+        "col_name" : "4角トラックバイアス大外",
+        "start_ind_b" : 336,
+		"end_ind_b" : 337,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_track_bias_innermost" : {
+        "col_name" : "直線トラックバイアス最内",
+        "start_ind_b" : 337,
+		"end_ind_b" : 338,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_track_bias_inner" : {
+        "col_name" : "直線トラックバイアス内",
+        "start_ind_b" : 338,
+		"end_ind_b" : 339,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_track_bias_mid" : {
+        "col_name" : "直線トラックバイアス中",
+        "start_ind_b" : 339,
+		"end_ind_b" : 340,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_track_bias_outer" : {
+        "col_name" : "直線トラックバイアス外",
+        "start_ind_b" : 340,
+		"end_ind_b" : 341,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_track_bias_outermost" : {
+        "col_name" : "直線トラックバイアス大外",
+        "start_ind_b" : 341,
+		"end_ind_b" : 342,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "race_comment" : {
+        "col_name" : "レースコメント",
+        "start_ind_b" : 342,
+		"end_ind_b" : 842,
+        "length" : 250,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }
+}

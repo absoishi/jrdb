@@ -1,0 +1,258 @@
+{
+    "open_key" : {
+        "col_name" : "開催キー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 6,
+        "length" : 6,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "yyyymmdd" : {
+        "col_name" : "年月日",
+        "start_ind_b" : 6,
+		"end_ind_b" : 14,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "open_type_code" : {
+        "col_name" : "開催区分",
+        "start_ind_b" : 14,
+		"end_ind_b" : 15,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "day_of_week" : {
+        "col_name" : "曜日",
+        "start_ind_b" : 15,
+		"end_ind_b" : 17,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "course_name" : {
+        "col_name" : "場名",
+        "start_ind_b" : 17,
+		"end_ind_b" : 21,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "weather_code" : {
+        "col_name" : "天候コード",
+        "start_ind_b" : 21,
+		"end_ind_b" : 22,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_condition_code" : {
+        "col_name" : "芝馬場状態コード",
+        "start_ind_b" : 22,
+		"end_ind_b" : 24,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "blank_to_zero_series"
+    },
+    "turf_condition_inner_code" : {
+        "col_name" : "芝馬場状態内",
+        "start_ind_b" : 24,
+		"end_ind_b" : 25,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_condition_mid_code" : {
+        "col_name" : "芝馬場状態中",
+        "start_ind_b" : 25,
+		"end_ind_b" : 26,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_condition_outer_code" : {
+        "col_name" : "芝馬場状態外",
+        "start_ind_b" : 26,
+		"end_ind_b" : 27,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_ground_difference" : {
+        "col_name" : "芝馬場差",
+        "start_ind_b" : 27,
+		"end_ind_b" : 30,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_ground_diff_innermost" : {
+        "col_name" : "直線馬場差最内",
+        "start_ind_b" : 30,
+		"end_ind_b" : 32,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_ground_diff_inner" : {
+        "col_name" : "直線馬場差内",
+        "start_ind_b" : 32,
+		"end_ind_b" : 34,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_ground_diff_mid" : {
+        "col_name" : "直線馬場差中",
+        "start_ind_b" : 34,
+		"end_ind_b" : 36,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_ground_diff_outer" : {
+        "col_name" : "直線馬場差外",
+        "start_ind_b" : 36,
+		"end_ind_b" : 38,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "straight_ground_diff_outermost" : {
+        "col_name" : "直線馬場差大外",
+        "start_ind_b" : 38,
+		"end_ind_b" : 40,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "dirt_condition_code" : {
+        "col_name" : "ダ馬場状態コード",
+        "start_ind_b" : 40,
+		"end_ind_b" : 42,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "blank_to_zero_series"
+    },
+    "dirt_condition_inner_code":{
+        "col_name" : "ダ馬場状態内",
+        "start_ind_b" : 42,
+		"end_ind_b" : 43,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "dirt_condition_mid_code" : {
+        "col_name" : "ダ馬場状態中",
+        "start_ind_b" : 43,
+		"end_ind_b" : 44,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "dirt_condition_outer_code" : {
+        "col_name" : "ダ馬場状態外",
+        "start_ind_b" : 44,
+		"end_ind_b" : 45,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "dirt_ground_difference" : {
+        "col_name" : "ダ馬場差",
+        "start_ind_b" : 45,
+		"end_ind_b" : 48,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "data_class_code" : {
+        "col_name" : "データ区分",
+        "start_ind_b" : 48,
+		"end_ind_b" : 49,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "successive_days" : {
+        "col_name" : "連続何日目",
+        "start_ind_b" : 49,
+		"end_ind_b" : 51,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "turf_type_code" : {
+        "col_name" : "芝種類",
+        "start_ind_b" : 51,
+		"end_ind_b" : 52,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "plant_height" : {
+        "col_name" : "草丈",
+        "start_ind_b" : 52,
+		"end_ind_b" : 56,
+        "length" : 4,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    },
+    "compacting_code" : {
+        "col_name" : "転圧",
+        "start_ind_b" : 56,
+		"end_ind_b" : 57,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }, 
+    "anti_freeze_code" : {
+        "col_name" : "凍結防止剤",
+        "start_ind_b" : 57,
+		"end_ind_b" : 58,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "precipitation" : {
+        "col_name" : "中間降水量",
+        "start_ind_b" : 58,
+		"end_ind_b" : 63,
+        "length" : 5,
+        "var_type" : "float",
+		"var_function" : "remove_blank_series"
+    }
+}

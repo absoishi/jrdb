@@ -1,0 +1,290 @@
+{
+    "race_key" : {
+        "col_name" : "レースキー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race" : {
+        "col_name" : "R",
+        "start_ind_b" : 6,
+		"end_ind_b" : 8,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "horse_number" : {
+        "col_name" : "馬番",
+        "start_ind_b" : 8,
+		"end_ind_b" : 10,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "jra_result" : {
+        "col_name" : "JRA成績",
+        "start_ind_b" : 10,
+		"end_ind_b" : 22,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "interleague_result" : {
+        "col_name" : "交流成績",
+        "start_ind_b" : 22,
+		"end_ind_b" : 34,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "other_result" : {
+        "col_name" : "他成績",
+        "start_ind_b" : 34,
+		"end_ind_b" : 46,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "turf_dirt_result" : {
+        "col_name" : "芝ダ障害別成績",
+        "start_ind_b" : 46,
+		"end_ind_b" : 58,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "turf_dirt_distance_result" : {
+        "col_name" : "芝ダ障害別距離成績",
+        "start_ind_b" : 58,
+		"end_ind_b" : 70,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "track_distance_result" : {
+        "col_name" : "トラック距離成績",
+        "start_ind_b" : 70,
+		"end_ind_b" : 82,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : "" 
+    },
+    "rotation_result" : {
+        "col_name" : "ローテ成績",
+        "start_ind_b" : 82,
+		"end_ind_b" : 94,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "round_result" : {
+        "col_name" : "回り成績",
+        "start_ind_b" : 94,
+		"end_ind_b" : 106,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "jockey_result" : {
+        "col_name" : "騎手成績",
+        "start_ind_b" : 106,
+		"end_ind_b" : 118,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "firm_result" : {
+        "col_name" : "良成績",
+        "start_ind_b" : 118,
+		"end_ind_b" : 130,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "good_result" : {
+        "col_name" : "稍成績",
+        "start_ind_b" : 130,
+		"end_ind_b" : 142,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "soft_result" : {
+        "col_name" : "重成績",
+        "start_ind_b" : 142,
+		"end_ind_b" : 154,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "pace_s_result" : {
+        "col_name" : "Sペース成績",
+        "start_ind_b" : 154,
+		"end_ind_b" : 166,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "pace_m_result" : {
+        "col_name" : "Mペース成績",
+        "start_ind_b" : 166,
+		"end_ind_b" : 178,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "pace_h_result":{
+        "col_name" : "Hペース成績",
+        "start_ind_b" : 178,
+		"end_ind_b" : 190,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "season_result" : {
+        "col_name" : "季節成績",
+        "start_ind_b" : 190,
+		"end_ind_b" : 202,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "frame_result" : {
+        "col_name" : "枠成績",
+        "start_ind_b" : 202,
+		"end_ind_b" : 214,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "jockey_distance_result" : {
+        "col_name" : "騎手距離成績",
+        "start_ind_b" : 214,
+		"end_ind_b" : 226,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "jockey_track_distance_result" : {
+        "col_name" : "騎手トラック距離成績",
+        "start_ind_b" : 226,
+		"end_ind_b" : 238,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "jockey_trainer_result" : {
+        "col_name" : "騎手調教師別成績",
+        "start_ind_b" : 238,
+		"end_ind_b" : 250,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "jockey_owner_result" : {
+        "col_name" : "騎手馬主別成績",
+        "start_ind_b" : 250,
+		"end_ind_b" : 262,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "jockey_blinker_result" : {
+        "col_name" : "騎手ブリンカ成績",
+        "start_ind_b" : 262,
+		"end_ind_b" : 274,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "trainer_owner_result" : {
+        "col_name" : "調教師馬主成績",
+        "start_ind_b" : 274,
+		"end_ind_b" : 286,
+        "length" : 12,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "sire_offspring_turf_in_second_rate" : {
+        "col_name" : "父馬産駒芝連対率",
+        "start_ind_b" : 286,
+		"end_ind_b" : 289,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "sire_offspring_dirt_in_second_rate" : {
+        "col_name" : "父馬産駒ダ連対率",
+        "start_ind_b" : 289,
+		"end_ind_b" : 292,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "sire_offspring_in_second_average_distance" : {
+        "col_name" : "父馬産駒連対平均距離",
+        "start_ind_b" : 292,
+		"end_ind_b" : 296,
+        "length" : 4,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_sire_offspring_turf_in_second_rate" : {
+        "col_name" : "母父馬産駒芝連対率",
+        "start_ind_b" : 296,
+		"end_ind_b" : 299,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_sire_offspring_dirt_in_second_rate" : {
+        "col_name" : "母父馬産駒ダ連対率",
+        "start_ind_b" : 299,
+		"end_ind_b" : 302,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "mare_sire_offspring_in_second_average_distance" : {
+        "col_name" : "母父馬産駒連対平均距離",
+        "start_ind_b" : 302,
+		"end_ind_b" : 306,
+        "length" : 4,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    }
+}

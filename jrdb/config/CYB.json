@@ -1,0 +1,202 @@
+{
+    "race_key" : {
+        "col_name" : "レースキー",
+        "start_ind_b" : 0,
+		"end_ind_b" : 8,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race_course_code" : {
+        "col_name" : "場コード",
+        "start_ind_b" : 0,
+		"end_ind_b" : 2,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "year" : {
+        "col_name" : "年",
+        "start_ind_b" : 2,
+		"end_ind_b" : 4,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "times" : {
+        "col_name" : "回",
+        "start_ind_b" : 4,
+		"end_ind_b" : 5,
+        "length" : 1,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "day" : {
+        "col_name" : "日",
+        "start_ind_b" : 5,
+		"end_ind_b" : 6,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : ""
+    },
+    "race" : {
+        "col_name" : "R",
+        "start_ind_b" : 6,
+		"end_ind_b" : 8,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "horse_number" : {
+        "col_name" : "馬番",
+        "start_ind_b" : 8,
+		"end_ind_b" : 10,
+        "length" : 2,
+        "var_type" : "int",
+		"var_function" : ""
+    },
+    "training_type_code" : {
+        "col_name" : "調教タイプ",
+        "start_ind_b" : 10,
+		"end_ind_b" : 12,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_course_type_code" : {
+        "col_name" : "調教コース種別",
+        "start_ind_b" : 12,
+		"end_ind_b" : 13,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_slope" : {
+        "col_name" : "調教コース種類(坂)",
+        "start_ind_b" : 13,
+		"end_ind_b" : 15,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_woodchip" : {
+        "col_name" : "調教コース種類(W)",
+        "start_ind_b" : 15,
+		"end_ind_b" : 17,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_dirt" : {
+        "col_name" : "調教コース種類(ダ)",
+        "start_ind_b" : 17,
+		"end_ind_b" : 19,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_turf" : {
+        "col_name" : "調教コース種類(芝)",
+        "start_ind_b" : 19,
+		"end_ind_b" : 21,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_pool" : {
+        "col_name" : "調教コース種類(プ)",
+        "start_ind_b" : 21,
+		"end_ind_b" : 23,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_bar" : {
+        "col_name" : "調教コース種類(障)",
+        "start_ind_b" : 23,
+		"end_ind_b" : 25,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_poly" : {
+        "col_name" : "調教コース種類(ポ)",
+        "start_ind_b" : 25,
+		"end_ind_b" : 27,
+        "length" : 2,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_distance_code" : {
+        "col_name" : "調教距離",
+        "start_ind_b" : 27,
+		"end_ind_b" : 28,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_important_point_code" : {
+        "col_name" : "調教重点",
+        "start_ind_b" : 28,
+		"end_ind_b" : 29,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "workout_index" : {
+        "col_name" : "追切指数",
+        "start_ind_b" : 29,
+		"end_ind_b" : 32,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "finish_index" : {
+        "col_name" : "仕上指数",
+        "start_ind_b" : 32,
+		"end_ind_b" : 35,
+        "length" : 3,
+        "var_type" : "int",
+		"var_function" : "remove_blank_series"
+    },
+    "training_amount_code" : {
+        "col_name" : "調教量評価",
+        "start_ind_b" : 35,
+		"end_ind_b" : 36,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "finish_index_change_code":{
+        "col_name" : "仕上指数変化",
+        "start_ind_b" : 36,
+		"end_ind_b" : 37,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_comment" : {
+        "col_name" : "調教コメント",
+        "start_ind_b" : 37,
+		"end_ind_b" : 77,
+        "length" : 40,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "comment_date" : {
+        "col_name" : "コメント年月日",
+        "start_ind_b" : 77,
+		"end_ind_b" : 85,
+        "length" : 8,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    },
+    "training_evaluation_code" : {
+        "col_name" : "調教評価",
+        "start_ind_b" : 85,
+		"end_ind_b" : 86,
+        "length" : 1,
+        "var_type" : "str",
+		"var_function" : "remove_blank_series"
+    }
+}
