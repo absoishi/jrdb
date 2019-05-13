@@ -27,7 +27,6 @@ To parse JRDB data and insert to DB.
 from jrdb import load
 from jrdb import parse
 import pandas as pd
-import sqlalchemy as sa
 
 # load text data (ex. SED)
 loader = load.FileLoader()
