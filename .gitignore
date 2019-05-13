@@ -7,3 +7,5 @@ README.rst
 setup.py
 /tests/*
 /jrdb/__pycache__/*
+.DS_Store
+/jrdb/.DS_Store
