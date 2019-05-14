@@ -12,7 +12,7 @@ When creating features, extract data from the database and process it. **jrdb** 
 ### Dependencies
 ----------------------
 - [NumPy](https://www.numpy.org)
-- [pandas]()
+- [pandas](https://pandas.pydata.org/)
 - [re]()
 <!--
 - [psycopg2]()
@@ -26,7 +26,6 @@ To parse JRDB data and insert to DB.
 # import modules
 from jrdb import load
 from jrdb import parse
-import pandas as pd
 
 # load text data (ex. SED)
 loader = load.FileLoader()
