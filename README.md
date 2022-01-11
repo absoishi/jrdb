@@ -14,6 +14,8 @@ When creating features, extract data from the database and process it. **jrdb** 
 - [NumPy](https://www.numpy.org)
 - [pandas](https://pandas.pydata.org/)
 - [re]()
+- [requests](https://docs.python-requests.org/en/latest/)
+- [lhafile](https://github.com/FrodeSolheim/python-lhafile/)
 <!--
 - [psycopg2]()
 - [sqlalchemy]()
@@ -34,7 +36,27 @@ text_data = loader.load('file_path/SEDyymmdd.txt')
 # parse
 parser = parse.JrdbDataParser()
 df = parser.parse(text_data, 'SED')   # return pandas DataFrame
-```
+```  
+  
+#### Direct data load from JRDB
+If you would like to download data from JRDB directorly, you can use `JrdbLoader` intead of `FileLoader`.  
+NOTE:  
+- **JRDB username and password are required** for script execution.
+- The script support **only separated data** (個別データ). Not support integrated data pack (JRDBデータパック).  
+- The script support daily data section (単体データコーナー) and yearly data section (年度パックコーナー).  
+- The script **not** support SRA/SRB data set download which is included SED data data set.
+- The script support `zip` and `lzh` file format.  
+- If you avoid to set username and password in source code, you can use envrionemnt variables (JRDB_USERNAME/JRDB_PASSWORD). In this case, The script skip the `load` method username and password parameters.  
+```py
+# import modules
+from jrdb import download
+from jrdb import parse
 
+# Download data from JRDB web site (ex. SED)
+loader = load.JrdbDownloader()
+text_data = loader.load('SEDyymmdd.zip', 'JRDB_USERNAME', 'JRDB_PASSWORD')
 
-
+# parse
+parser = parse.JrdbDataParser()
+df = parser.parse(text_data, 'SED')   # return pandas DataFrame
+```  
