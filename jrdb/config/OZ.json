@@ -1,0 +1,338 @@
+{
+    "race_key": {
+        "col_name": "レースキー",
+        "start_ind_b": 0,
+        "end_ind_b": 8,
+        "length": 8,
+        "var_type": "str",
+        "var_function": ""
+    },
+    "race_course_code": {
+        "col_name": "場コード",
+        "start_ind_b": 0,
+        "end_ind_b": 2,
+        "length": 2,
+        "var_type": "str",
+        "var_function": ""
+    },
+    "year": {
+        "col_name": "年",
+        "start_ind_b": 2,
+        "end_ind_b": 4,
+        "length": 2,
+        "var_type": "str",
+        "var_function": ""
+    },
+    "times": {
+        "col_name": "回",
+        "start_ind_b": 4,
+        "end_ind_b": 5,
+        "length": 1,
+        "var_type": "str",
+        "var_function": ""
+    },
+    "day": {
+        "col_name": "日",
+        "start_ind_b": 5,
+        "end_ind_b": 6,
+        "length": 1,
+        "var_type": "str",
+        "var_function": ""
+    },
+    "race": {
+        "col_name": "R",
+        "start_ind_b": 6,
+        "end_ind_b": 8,
+        "length": 2,
+        "var_type": "int",
+        "var_function": ""
+    },
+    "win_01": {
+        "col_name": "単勝_01",
+        "start_ind_b": 11,
+        "end_ind_b": 15,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_02": {
+        "col_name": "単勝_02",
+        "start_ind_b": 16,
+        "end_ind_b": 20,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_03": {
+        "col_name": "単勝_03",
+        "start_ind_b": 21,
+        "end_ind_b": 25,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_04": {
+        "col_name": "単勝_04",
+        "start_ind_b": 26,
+        "end_ind_b": 30,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_05": {
+        "col_name": "単勝_05",
+        "start_ind_b": 31,
+        "end_ind_b": 35,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_06": {
+        "col_name": "単勝_06",
+        "start_ind_b": 36,
+        "end_ind_b": 40,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_07": {
+        "col_name": "単勝_07",
+        "start_ind_b": 41,
+        "end_ind_b": 45,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_08": {
+        "col_name": "単勝_08",
+        "start_ind_b": 46,
+        "end_ind_b": 50,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_09": {
+        "col_name": "単勝_09",
+        "start_ind_b": 51,
+        "end_ind_b": 55,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_10": {
+        "col_name": "単勝_10",
+        "start_ind_b": 56,
+        "end_ind_b": 60,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_11": {
+        "col_name": "単勝_11",
+        "start_ind_b": 61,
+        "end_ind_b": 65,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_12": {
+        "col_name": "単勝_12",
+        "start_ind_b": 66,
+        "end_ind_b": 70,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_13": {
+        "col_name": "単勝_13",
+        "start_ind_b": 71,
+        "end_ind_b": 75,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_14": {
+        "col_name": "単勝_14",
+        "start_ind_b": 76,
+        "end_ind_b": 80,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_15": {
+        "col_name": "単勝_15",
+        "start_ind_b": 81,
+        "end_ind_b": 85,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_16": {
+        "col_name": "単勝_16",
+        "start_ind_b": 86,
+        "end_ind_b": 90,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_17": {
+        "col_name": "単勝_17",
+        "start_ind_b": 91,
+        "end_ind_b": 95,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "win_18": {
+        "col_name": "単勝_18",
+        "start_ind_b": 96,
+        "end_ind_b": 100,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_01": {
+        "col_name": "複勝_01",
+        "start_ind_b": 101,
+        "end_ind_b": 105,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_02": {
+        "col_name": "複勝_02",
+        "start_ind_b": 106,
+        "end_ind_b": 110,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_03": {
+        "col_name": "複勝_03",
+        "start_ind_b": 111,
+        "end_ind_b": 115,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_04": {
+        "col_name": "複勝_04",
+        "start_ind_b": 116,
+        "end_ind_b": 120,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_05": {
+        "col_name": "複勝_05",
+        "start_ind_b": 121,
+        "end_ind_b": 125,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_06": {
+        "col_name": "複勝_06",
+        "start_ind_b": 126,
+        "end_ind_b": 130,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_07": {
+        "col_name": "複勝_07",
+        "start_ind_b": 131,
+        "end_ind_b": 135,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_08": {
+        "col_name": "複勝_08",
+        "start_ind_b": 136,
+        "end_ind_b": 140,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_09": {
+        "col_name": "複勝_09",
+        "start_ind_b": 141,
+        "end_ind_b": 145,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_10": {
+        "col_name": "複勝_10",
+        "start_ind_b": 146,
+        "end_ind_b": 150,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_11": {
+        "col_name": "複勝_11",
+        "start_ind_b": 151,
+        "end_ind_b": 155,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_12": {
+        "col_name": "複勝_12",
+        "start_ind_b": 156,
+        "end_ind_b": 160,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_13": {
+        "col_name": "複勝_13",
+        "start_ind_b": 161,
+        "end_ind_b": 165,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_14": {
+        "col_name": "複勝_14",
+        "start_ind_b": 166,
+        "end_ind_b": 170,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_15": {
+        "col_name": "複勝_15",
+        "start_ind_b": 171,
+        "end_ind_b": 175,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_16": {
+        "col_name": "複勝_16",
+        "start_ind_b": 176,
+        "end_ind_b": 180,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_17": {
+        "col_name": "複勝_17",
+        "start_ind_b": 181,
+        "end_ind_b": 185,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    },
+    "place_18": {
+        "col_name": "複勝_18",
+        "start_ind_b": 186,
+        "end_ind_b": 190,
+        "length": 5,
+        "var_type": "float",
+        "var_function": "remove_blank_series"
+    }
+}
