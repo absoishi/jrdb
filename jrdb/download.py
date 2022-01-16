@@ -92,7 +92,7 @@ class ZipLoader(IFileLoader):
                 txt = zip_object.open(file_name).read()
                 records.extend(txt.decode('ms932').splitlines())
 
-        return pd.DataFrame(records)
+        return pd.Series(records)
 
 
 class LzhLoader(IFileLoader):
@@ -111,4 +111,4 @@ class LzhLoader(IFileLoader):
                 txt = lha_object.read(file_info.filename)
                 records.extend(txt.decode('ms932').splitlines())
 
-        return pd.DataFrame(records)
+        return pd.Series(records)
