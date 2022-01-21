@@ -2,11 +2,12 @@ import io
 import os
 import re
 import zipfile
-import lhafile
 from abc import ABCMeta, abstractmethod
 
+import lhafile
 import pandas as pd
 import requests
+from bs4 import BeautifulSoup
 from requests.auth import HTTPBasicAuth
 
 
@@ -23,6 +24,21 @@ class JrdbDownloader():
         loader = self._create_loader(self._file_type)
         return loader.load_file(self._file_name, self._jrdb_user, self._jrdb_pass)
 
+    def file_names(self, data_type, bulk=False):
+        # Collect file list
+        files_all = self._collect_file_names(data_type)
+
+        if bulk:
+            # Generate regexp of bulk files year
+            bulk_files = [f for f in files_all if re.search(r'[A-Z]{2,3}_\d{4}.zip', f)]
+            pattern = re.compile(r'[A-Z]{2,3}' + '(' + '|'.join([b[-6:-4] for b in bulk_files]) + ')' + r'\d{4}.zip')
+            # Reduct unit files which is included in bulk files
+            file_list = [f for f in files_all if not re.search(pattern, f)]
+        else:
+            # Extract latest file
+            file_list = [f for f in files_all if not re.search(r'[A-Z]{2,3}_\d{4}.zip', f)][0:1]
+        return file_list
+
     def _get_file_type(self, file_name):
         return re.search(r'\.[a-z]+', file_name).group(0)[1:]
 
@@ -34,6 +50,29 @@ class JrdbDownloader():
         else:
             print('Unexpected file type: %s' % (file_type))
             raise SystemExit()
+
+    def _collect_file_names(self, data_type):
+        try:
+            # Try to download ZIP file from JRDB with username and password.
+            url = url = 'http://www.jrdb.com/member/datazip/' + data_type.capitalize()
+            res = requests.get(url, auth=HTTPBasicAuth(self._jrdb_user, self._jrdb_pass))
+        except requests.exceptions as e:
+            # Exception error handling
+            print('Request is failure: Name, server or service not known')
+            print('RequestsExceptions', e)
+            raise SystemExit()
+
+        # Response Status Confirmation
+        if res.status_code not in [200]:
+            # HTTP Response is not 200 (Normal)
+            print('Request to ' + url + ' has been failure: ' + str(res.status_code))
+            raise SystemExit()
+        else:
+            # Extract A tag strings
+            a_list = BeautifulSoup(res.content, "html.parser").select('li > a')
+            file_names = [file_name.string for file_name in a_list]
+
+        return file_names
 
 
 class IFileLoader(metaclass=ABCMeta):
@@ -71,7 +110,7 @@ class IFileLoader(metaclass=ABCMeta):
         # Concat category and file_name (ex. Sed/2022/SED220110.zip, Sed/SED_2021.zip)
         return category + "/" + file_name
 
-    @abstractmethod
+    @ abstractmethod
     def _uncompress_file(self, content):
         pass
 

@@ -16,6 +16,7 @@ When creating features, extract data from the database and process it. **jrdb** 
 - [re]()
 - [requests](https://docs.python-requests.org/en/latest/)
 - [lhafile](https://github.com/FrodeSolheim/python-lhafile/)
+- [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 <!--
 - [psycopg2]()
 - [sqlalchemy]()
@@ -60,3 +61,19 @@ text_data = loader.load('SEDyymmdd.zip', 'JRDB_USERNAME', 'JRDB_PASSWORD')
 parser = parse.JrdbDataParser()
 df = parser.parse(text_data, 'SED')   # return pandas DataFrame
 ```  
+
+#### Bulk load option
+If you would like to bulk download or latest file download from JRDB, you can use `file_names` method.  
+- If you collect only latest data, please delete `bulk=True` option from `file_names` method arguments.
+```py
+# Download data from JRDB web site (ex. SED)
+loader = load.JrdbDownloader()
+text_data_all = []
+# Listing target data type files and loop it.
+for file_name in loader.file_names('SED', bulk=True):
+    text_data = loader.load(file_name, 'JRDB_USERNAME', 'JRDB_PASSWORD')
+    text_data_all = text_data_all.append(text_data)
+    time.sleep(5)
+# Gathering loaded data
+text_data_all = pd.concat(text_data_all)
+```
