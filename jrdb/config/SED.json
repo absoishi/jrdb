@@ -670,5 +670,13 @@
         "length" : 1,
         "var_type" : "str",
 		"var_function" : "remove_blank_series"
+    },
+    "start_time" : {
+        "col_name" : "発走時間",
+        "start_ind_b" : 370,
+		"end_ind_b" : 374,
+        "length" : 4,
+        "var_type" : "str",
+		"var_function" : ""
     }
 }

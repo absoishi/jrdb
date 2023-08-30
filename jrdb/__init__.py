@@ -1,2 +1,2 @@
-from jrdb import load
-from jrdb import parse
+from .  import load
+from . import parse
